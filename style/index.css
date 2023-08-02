@@ -32,16 +32,32 @@
         margin-bottom: 6em;
     }
     #product-categories-photo > #vela{
-        background: url(../img/vela-rose.jpg) scroll no-repeat top center;
+        background: linear-gradient(to top, rgba(50,49,49,0.877), transparent) ,url(../img/vela-rose.jpg) scroll no-repeat top center;
         background-size: cover;        
     }
     #product-categories-photo > #sabonete{
-        background: url(../img/sabonete.jpg) scroll no-repeat center center;
+        background: linear-gradient(to top, rgba(50,49,49,0.877),transparent),url(../img/sabonete.jpg) scroll no-repeat center center;
         background-size: cover;
     }
     #product-categories-photo > #doce{
-        background: url(../img/doce.jpg) scroll no-repeat center center;
+        background: linear-gradient(to top, rgba(50,49,49,0.877),transparent),url(../img/doce.jpg) scroll no-repeat center center;
         background-size: cover;
+    }
+    .photos-categories{
+        position: relative;
+    }
+    #product-categories-photo  .description-categories{
+        color: white;
+
+
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
     
 
