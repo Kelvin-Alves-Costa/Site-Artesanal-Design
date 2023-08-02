@@ -80,6 +80,7 @@
         margin-bottom: 3em;
     }
 
+/* Tablets */
 @media (min-width: 768px) and (max-width: 992px){
    /* Header */
         nav{
@@ -122,4 +123,98 @@
 
             font-size: 2em;
         }
+}
+/* Monitores */
+@media (min-width:993px) and (max-width:1200px){
+    /* Header */
+        header > nav{
+            padding: 6.5em 0px;
+        }
+        header > nav > .material-icons{
+            font-size: 3.5em;
+        }
+        header > nav #logo{
+            font-size: 3em;
+        }
+        nav > #search{
+            margin-right: 2vw;
+        }
+        nav > #user{
+            margin-right: 2vw;
+        }
+
+    /* Footer */
+        #footer-nav{
+            align-items: start;
+        }
+        #footer-nav a{
+            font-size: 2em;
+            margin: 1em 0px 0px 2em;
+            columns: 2;
+        }
+        #footer-nav a:last-child{
+            margin: 1em 0px 2em 2em;
+        }
+        #social-media{
+            justify-content: right;
+            gap: 1.5em;
+            margin: 2em 3em 0px 0px;
+        }
+
+        #footer-logo{
+            text-align: left;
+            margin: 0px 0px 3em 2em;
+
+            font-size: 2em;
+        }
+    
+}
+
+@media (min-width:1201px){
+    /* Header */
+    header > nav{
+        padding: 4em 0px;
+    }
+    header > nav > .material-icons{
+        font-size: 3.5em;
+    }
+    header > nav #logo{
+        font-size: 3em;
+    }
+    nav > #search{
+        margin-right: 2vw;
+    }
+    nav > #user{
+        margin-right: 2vw;
+    }
+
+    /* Footer */
+    #footer-nav{
+        align-items: start;
+    }
+    #footer-nav a{
+        font-size: 2em;
+        margin: 1em 0px 0px 2em;
+        columns: 2;
+    }
+    #footer-nav a:last-child{
+        margin: 1em 0px 2em 2em;
+    }
+    #social-media{
+        justify-content: right;
+        gap: 1.5em;
+        margin: 2em 3em 0px 0px;
+    }
+    #social-media .medias{
+        width: 3%;
+    }
+
+    #footer-logo{
+        text-align: left;
+        margin: 0px 0px 3em 2em;
+
+        font-size: 2em;
+    }
+
+
 }
