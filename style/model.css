@@ -7,64 +7,19 @@
 
 
 /* Header */
-    nav{
-        display: flex;
-        flex-direction: row;
-
-        align-items: center;
-        padding: 1em 0px ;
+    header > nav{
+        height: 8vh;
     }
-    nav > #menu{
-        margin: 0px 33vw 0px 5vw ;
-    }
-    nav > #logo{
-        margin-right: 20%;
-    }
-    nav > #search{
-        margin-right: 1vw;
-    }
-    nav > #user{
-        margin-right: 1vw;
+    header > nav{
+        padding-top: 1em;
     }
 
 /* Footer */
-    footer{
-        background-color: black;
-        color: white;
-    }
-    footer a{
-        text-decoration: none;
-        color: white;
-    }
-    #footer-nav{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5em;
-
-        margin:0px 0px 1.5em 0px;
-    }
-    #footer-nav:first-child{
-        padding-top: 1.5em;
-    }
-    #footer-row{
-        margin: auto;
-        width: 90vw;
-        background-color: rgba(128, 128, 128, 0.421);
-        height: 0.2em;
-    }
-    #footer-credits{
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 3em;
-    }
     #social-media{
         display: flex;
         flex-direction: row;
         justify-content: center;
         gap: 1em;
-        
     }
     #social-media > .medias{
         width: 6% ;
@@ -75,101 +30,48 @@
     #social-media #instagram-logo{
         color: white;
     }
-    #footer-logo{
-        text-align: center;
-        margin-bottom: 3em;
-    }
 
 /* Tablets */
 @media (min-width: 768px) and (max-width: 992px){
    /* Header */
-        nav{
-            padding: 3.5em 0px;
+        header > nav{
+            height: 14vh;
         }
-        nav > .material-icons{
-            font-size: 2.4em;
+        header > nav{
+            padding-top: 3.5em;
         }
-        nav > #logo{
-            font-size: 2.5em ;
+        header> nav .material-icons{
+            font-size: 2em;
         }
-        nav > #search{
-            margin-right: 1.5vw;
-        }
-        nav > #user{
-            margin-right: 1.5vw;
+        header > nav  #logo{
+            font-size: 1.8em ;
         }
 
     /* Footer */
-        #footer-nav{
-            align-items: start;
+        #social-media > .medias{
+            width: 3% ;
         }
-        #footer-nav a{
-            font-size: 2em;
-            margin: 1em 0px 0px 2em;
-            columns: 2;
-        }
-        #footer-nav a:last-child{
-            margin: 1em 0px 2em 2em;
-        }
-        #social-media{
-            justify-content: right;
-            gap: 1.5em;
-            margin: 2em 3em 0px 0px;
-        }
-
-        #footer-logo{
-            text-align: left;
-            margin: 0px 0px 3em 2em;
-
-            font-size: 2em;
-        }
+        
 }
 /* Monitores */
 @media (min-width:993px) and (max-width:1200px){
     /* Header */
         header > nav{
-            padding: 4.5em 0px;
+            height: 25vh;
         }
-        header > nav > .material-icons{
-            font-size: 2.4em;
-            font-weight: lighter;
+        header > nav{
+            padding-top: 3.5em;
         }
-        header > nav #logo{
-            font-size: 2.8em;
+        header> nav .material-icons{
+            font-size: 2em;
         }
-        nav > #search{
-            margin-right: 2.8vw;
-        }
-        nav > #user{
-            margin-right: 2.8vw;
+        header > nav  #logo{
+            font-size: 1.8em ;
         }
 
     /* Footer */
-        #footer-nav{
-            align-items: start;
-        }
-        #footer-nav a{
-            font-size: 1.6em;
-            margin: 1em 0px 0px 2em;
-            columns: 2;
-        }
-        #footer-nav a:last-child{
-            margin: 1em 0px 2em 2em;
-        }
-        #social-media{
-            justify-content: right;
-            gap: 1.5em;
-            margin: 2em 3em 0px 0px;
-        }
         #social-media > .medias{
-            width: 2.9%;
-        }
-
-        #footer-logo{
-            text-align: left;
-            margin: 0px 0px 3em 2em;
-
-            font-size: 2em;
+            width: 2% ;
         }
     
 }
@@ -177,51 +79,22 @@
 @media (min-width:1201px){
     /* Header */
     header > nav{
-        padding: 4em 0px;
+        height: 25vh;
     }
-    header > nav > .material-icons{
-        font-size: 2.4em;
+    header > nav{
+        padding-top: 4.5em;
     }
-    nav > #menu{
-        margin: 0px 37vw 0px 5vw ;
+    header> nav .material-icons{
+        font-size: 2em;
     }
-    header > nav #logo{
-        font-size: 2.5em;
-    }
-    nav > #search{
-        margin-right: 3.9vw;
-    }
-    nav > #user{
-        margin-right: 3.9vw;
+    header > nav  #logo{
+        font-size: 2em ;
     }
 
     /* Footer */
-    #footer-nav{
-        align-items: start;
-    }
-    #footer-nav a{
-        font-size: 1.4em;
-        margin: 1em 0px 0px 2em;
-        columns: 2;
-    }
-    #footer-nav a:last-child{
-        margin: 1em 0px 2em 2em;
-    }
-    #social-media{
-        justify-content: right;
-        gap: 1.5em;
-        margin: 2em 3em 0px 0px;
-    }
-    #social-media .medias{
-        width: 2%;
-    }
-
-    #footer-logo{
-        text-align: left;
-        margin: 0px 0px 3em 2em;
-
-        font-size: 2em;
-    }
+        #social-media > .medias{
+            width: 2% ;
+        }
 
 
 }
