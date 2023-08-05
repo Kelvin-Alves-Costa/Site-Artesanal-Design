@@ -1,0 +1,39 @@
+.button-personalizate{
+    width: 100%;
+    
+  }
+  #login-section{
+    height: 60vh;
+
+  }
+  
+  @media (min-width:768px) and (max-width:992px){
+    .button-personalizate{
+      width: 30%;
+    }
+    #login-section{
+      height: 70vh;
+    } 
+    #login-group{
+      height: 90%
+    }
+  }
+  @media (min-width:993px) and (max-width:1200px){
+    .button-personalizate{
+      width: 20%;
+    }
+    #login-section{
+        height: 90vh;
+    }
+    #login-group{
+        height:100% ;
+    }
+  }
+  @media (min-width:1201px){
+    .button-personalizate{
+      width: 20%;
+    }
+    #login-group{
+      height: 70vh;
+    }
+  }
