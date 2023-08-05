@@ -45,6 +45,7 @@
         }
         header > nav  #logo{
             font-size: 1.8em ;
+            
         }
 
     /* Footer */
@@ -89,6 +90,9 @@
     }
     header > nav  #logo{
         font-size: 2em ;
+        text-align: left;
+        transform: translateX(10%);
+        
     }
 
     /* Footer */
